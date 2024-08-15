@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid blueviolet;
+  padding-left: 15px;
+  color: blueviolet;
+}
+.form-button {
+  height: 35px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  cursor: pointer;
+}
+.message-p {
+    color: green;
+}
+.carousel-caption {
+  background-color: rgb(107, 90, 90);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: black;
+  border: 15px;
+}
+
+/* for seller auth and user auth */
+.auth-toggle-link {
+  margin-top: 20px;
+  color: blueviolet;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.invalid-input {
+  color: red;
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,32 @@
+@if (productDetails) {
+<div class="row product-details">
+    <div class="col-sm-6">
+        <img class="product-image" src="{{productDetails.image}}" alt=""> 
+    </div>
+    <div class="col-sm-6">
+        <div class="details">
+            <h1>{{productDetails.name}}</h1>
+            <h3>Price :  {{productDetails.price}}</h3>
+            <div>
+                Color : 
+                <h5 [style.backgroundColor]="productDetails.color" class="product-color" ></h5>
+            </div>
+             <h6>Category : {{productDetails.category}}</h6>
+             <h6>Description: {{productDetails.description}}</h6>
+            @if (!removeCart) {
+                <button class="form-button" (click)="addToCart()">Add To Cart</button>
+            }
+
+            @if (removeCart) {
+                <button class="form-button" (click)="removeToCart(productDetails.id)">Remove To Cart</button>
+            }
+             <button class="form-button">Buy Now</button>
+             <div class="quantity-group">
+                <button (click)="handleQuantity('min')">-</button>
+                <input type="text" value="{{productQuantity}}"/>
+                <button (click)="handleQuantity('plus')">+</button>
+             </div>
+        </div>
+    </div>
+</div>
+}
