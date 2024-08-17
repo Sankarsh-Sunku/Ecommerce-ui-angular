@@ -10,7 +10,7 @@
   "products": [
     {
       "name": "Samsung m 40 a ",
-      "price": "5500",
+      "price": 5500,
       "color": "white",
       "description": "this is a Samsung product ",
       "category": "mobile",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Truck",
-      "price": "5800",
+      "price": 5800,
       "color": "Red",
       "description": "A toy for 5 year old child",
       "category": "Toys",
@@ -28,7 +28,7 @@
     },
     {
       "name": "HP Laptop",
-      "price": "50000",
+      "price": 50000,
       "category": "Laptop",
       "color": "black",
       "description": "Hp laptop for student and professionals",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Nike Shoes",
-      "price": "3000",
+      "price": 3000,
       "category": "Shoes",
       "color": "Black",
       "description": "Best shoes for Running",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Levies Jeans",
-      "price": "5000",
+      "price": 5000,
       "category": "Jeans",
       "color": "blue",
       "description": "Confirmable jeans for man ",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Truck",
-      "price": "Toy",
+      "price": 5500,
       "category": "Toys",
       "color": "Red",
       "description": "A toy for 5 year old child",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Noise Smart Watch",
-      "price": "2000",
+      "price": 2000,
       "category": "Watch",
       "color": "Black",
       "description": "Noise smart watch for man and women both",
@@ -98,162 +98,13 @@
       "id": "4"
     },
     {
-      "id": "b113",
-      "name": "Spider-Man",
-      "email": "Spider",
-      "password": "Mann"
+      "id": "9",
+      "name": "sankarsh",
+      "email": "sankarsh1905@gmail.com",
+      "password": "123456"
     }
   ],
-  "cart": [
-    {
-      "name": "HP Laptop",
-      "price": "50000",
-      "category": "Laptop",
-      "color": "black",
-      "description": "Hp laptop for student and professionals",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": "3"
-    },
-    {
-      "name": "Nike Shoes",
-      "price": "3000",
-      "category": "Shoes",
-      "color": "Black",
-      "description": "Best shoes for Running",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": "4"
-    },
-    {
-      "name": "Levies Jeans",
-      "price": "5000",
-      "category": "Jeans",
-      "color": "blue",
-      "description": "Confirmable jeans for man ",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": "5"
-    },
-    {
-      "name": "Truck",
-      "price": "Toy",
-      "category": "Toys",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "6"
-    },
-    {
-      "name": "Noise Smart Watch",
-      "price": "2000",
-      "category": "Watch",
-      "color": "Black",
-      "description": "Noise smart watch for man and women both",
-      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
-      "id": "7"
-    },
-    {
-      "id": "5556",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 1,
-      "productId": "6"
-    },
-    {
-      "id": "83c9",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 1,
-      "productId": "6"
-    },
-    {
-      "id": "863b",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 10,
-      "productId": "6"
-    },
-    {
-      "id": "6246",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 7,
-      "productId": "6"
-    },
-    {
-      "id": "de0d",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 1,
-      "productId": "6"
-    },
-    {
-      "id": "6954",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 1,
-      "userId": "4",
-      "productId": "6"
-    },
-    {
-      "id": "1476",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 1,
-      "userId": "4",
-      "productId": "6"
-    },
-    {
-      "id": "7385",
-      "name": "Truck",
-      "price": "5800",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "category": "Toys",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 20,
-      "userId": "4",
-      "productId": "6"
-    },
-    {
-      "id": "4dfb",
-      "name": "Truck",
-      "price": "Toy",
-      "category": "Toys",
-      "color": "Red",
-      "description": "A toy for 5 year old child",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "quantity": 1,
-      "userId": "3",
-      "productId": "6"
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "email": "anil@user.com",
@@ -270,6 +121,30 @@
       "totalPrice": 6100,
       "userId": 1,
       "id": "3"
+    },
+    {
+      "id": "4",
+      "email": "ufdfghjk",
+      "address": "poiug",
+      "contact": ";lkjhg",
+      "totalPrice": 24630,
+      "userId": "9"
+    },
+    {
+      "id": "8579205",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 24630,
+      "userId": "9"
+    },
+    {
+      "id": "1d52",
+      "email": "Sankarsh",
+      "address": "refund@gmail.com",
+      "contact": "9898653298",
+      "totalPrice": 24630,
+      "userId": "9"
     }
   ]
 }

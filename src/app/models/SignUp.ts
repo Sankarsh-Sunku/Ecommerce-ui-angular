@@ -11,7 +11,7 @@ export interface Login {
 
 export interface AddProduct {
   name: string;
-  price: string;
+  price: number;
   category: string;
   color: string;
   image: string;
@@ -23,7 +23,7 @@ export interface AddProduct {
 
 export interface Cart {
   name: string;
-  price: string;
+  price: number;
   category: string;
   color: string;
   image: string;
@@ -32,4 +32,20 @@ export interface Cart {
   quantity : undefined | number;
   userId :  number;
   productId : undefined | number;
+}
+
+export interface PriceSummary{
+  price:number,
+  tax:number,
+  delivery:number,
+  total:number
+}
+
+export interface order {
+  email:string,
+  address:string,
+  contact:string,
+  totalPrice:number,
+  userId:string,
+  id : undefined | number
 }
